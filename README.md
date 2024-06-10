@@ -1,10 +1,20 @@
 # **Sales Report for Dataleum Retail**
-This report aims to review Dataleum’s financial performance from January to May 2020. Data was analyzed to create insights like revenue trend, top 5 products by revenue, and top 10 sales team by revenue.
 
-### **Table of Contents**
+## **Table of Contents**
+[Project Overview](project_overview)
+
+[Data Analysis](data_analysis)
+
+[Exploratory Data Analysis](exploratory_data_analysis)
+
+[Results](results)
+
+[Recommendation](recommendation)
 
 ### **Project Overview**
 This report aims to review Dataleum’s financial performance from January to May 2020. Data was analyzed to create insights like revenue trend, top 5 products by revenue, and top 10 sales team by revenue.
+
+### **Data Analysis**
 
 ### **Exploratory Data Analysis**
 
