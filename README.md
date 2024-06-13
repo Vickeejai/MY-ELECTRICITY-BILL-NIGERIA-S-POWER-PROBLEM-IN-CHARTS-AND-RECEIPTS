@@ -87,11 +87,11 @@ TOP 10 SALES TEAM BY REVENUE
  - Out of 28 persons in the Sales team, these 10 people achieved the highest revenue.
  - Total revenue from this top 10 amounts to 17.6 million USD, which is over 40% of the total revenue from all sales.
 
-
-
-
 ![Screenshot 2024-06-13 141616](https://github.com/Vickeejai/Sales-Report-for-Dataleum-Retail/assets/133552578/974280c2-101c-46d7-95c9-43c82d7fd574)
 
+TOP 10 STATES BY REVENUE SHOWING POPULATION, MEDIAN INCOME, AND STORE COUNT BY STATE
+
+![Screenshot 2024-06-13 142343](https://github.com/Vickeejai/Sales-Report-for-Dataleum-Retail/assets/133552578/cf2c1b5e-986e-420a-921a-4d050584e4ff)
 
 
 
