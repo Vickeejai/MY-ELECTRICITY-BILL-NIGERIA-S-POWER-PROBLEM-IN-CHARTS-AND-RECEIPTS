@@ -90,8 +90,14 @@ TOP 10 SALES TEAM BY REVENUE
 ![Screenshot 2024-06-13 141616](https://github.com/Vickeejai/Sales-Report-for-Dataleum-Retail/assets/133552578/974280c2-101c-46d7-95c9-43c82d7fd574)
 
 TOP 10 STATES BY REVENUE SHOWING POPULATION, MEDIAN INCOME, AND STORE COUNT BY STATE
+ - These are the top 10 states with highest revenue showing population, median income, and store cound per state.
 
 ![Screenshot 2024-06-13 142343](https://github.com/Vickeejai/Sales-Report-for-Dataleum-Retail/assets/133552578/cf2c1b5e-986e-420a-921a-4d050584e4ff)
+
+3. DASHBOARD FROM THE ANALYSIS
+
+ ![Screenshot 2024-06-13 223527](https://github.com/Vickeejai/Sales-Report-for-Dataleum-Retail/assets/133552578/7f9fd29a-7156-47e5-a7f0-1d42c93a2196)
+
 
 
 
