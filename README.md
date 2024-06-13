@@ -96,7 +96,22 @@ TOP 10 STATES BY REVENUE SHOWING POPULATION, MEDIAN INCOME, AND STORE COUNT BY S
 
 3. DASHBOARD FROM THE ANALYSIS
 
- ![Screenshot 2024-06-13 223527](https://github.com/Vickeejai/Sales-Report-for-Dataleum-Retail/assets/133552578/7f9fd29a-7156-47e5-a7f0-1d42c93a2196)
+![Screenshot 2024-06-13 224100](https://github.com/Vickeejai/Sales-Report-for-Dataleum-Retail/assets/133552578/e999cf98-4ec2-4885-b477-6b7bb815b905)
+
+ 4. The 2 top revenue products in January are: Collectibles and Vanities
+
+ 5. Sales team with the most revenue from Decoratives in March is Donald Reynolds
+
+ 6. Metrics that correlates with revenue per state are: No of Stores and State Population.
+
+![Screenshot 2024-06-13 224736](https://github.com/Vickeejai/Sales-Report-for-Dataleum-Retail/assets/133552578/6868b39d-a3a1-44fc-8274-6e2dce6a0676)
+
+### **Recommendation**
+
+ - Discounts and Promos could be run on seasons like Valentine, Easter, etc. to get more revenue from sales.
+ - There should be rewards for top performing salespersons to motivate the team.
+ - More marketing campaigns should be carried out on low-performing products.
+
 
 
 
