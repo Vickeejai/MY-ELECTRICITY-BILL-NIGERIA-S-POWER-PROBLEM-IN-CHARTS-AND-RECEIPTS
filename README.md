@@ -3,6 +3,10 @@
 ## **Table of Contents**
 [Project Overview](project_overview)
 
+[Data Sources](data_sources)
+
+[Tools](tools)
+
 [Data Analysis](data_analysis)
 
 [Exploratory Data Analysis](exploratory_data_analysis)
@@ -14,7 +18,18 @@
 ### **Project Overview**
 This report aims to review Dataleum’s financial performance from January to May 2020. Data was analyzed to create insights like revenue trend, top 5 products by revenue, and top 10 sales team by revenue.
 
+### **Data Sources**
+
+### **Tools**
+
+ - Microsoft Excel
+ - PowerPoint
+
 ### **Data Analysis**
+
+=[@[unit price]]*[@[Order qty]]
+
+=[@Revenue]-([@[unit cost]]*[@[Order qty]])
 
 ### **Exploratory Data Analysis**
 
