@@ -42,8 +42,8 @@ Performed some Excel calculations liike:
 As the data analyst for DTLM Retail, the Sales Director has requested the following from the dataset provided:
 
 1. Calculate the following for every order:
-   
- - Revenue
+
+- Revenue
  - Profit
 
 2. Make reports for:
