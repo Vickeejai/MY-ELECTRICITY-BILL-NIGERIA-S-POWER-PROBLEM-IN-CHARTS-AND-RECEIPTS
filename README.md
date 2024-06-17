@@ -43,27 +43,27 @@ As the data analyst for DTLM Retail, the Sales Director has requested the follow
 
 1. Calculate the following for every order:
 
-- Revenue
- - Profit
+   - Revenue
+   - Profit
 
 2. Make reports for:
 
- - Revenue trend
- - Top 5 products by revenue
- - Revenue contribution (%) of the product categories
- - Top 10 sales team by revenue
- - Top 10 states by revenue, also showing their population, median income and store count per state
+   - Revenue trend
+   - Top 5 products by revenue
+   - Revenue contribution (%) of the product categories
+   - Top 10 sales team by revenue
+   - Top 10 states by revenue, also showing their population, median income and store count per state
 
 3. Create a dashboard with the reports and make it sliceable by:
    
- - Product Category
- - Date
+   - Product Category
+   - Date
 
 4. Include a textbox to highlight the following insights:
    
- - Which are the 2 top revenue products in January?
- - Which sales team made most revenue from Decoratives in March?
- - Based on 2v, which metric(s) correlates with revenue per state?
+   - Which are the 2 top revenue products in January?
+   - Which sales team made most revenue from Decoratives in March?
+   - Based on 2v, which metric(s) correlates with revenue per state?
    
 ### **Results**   
 
@@ -94,7 +94,7 @@ TOP 10 STATES BY REVENUE SHOWING POPULATION, MEDIAN INCOME, AND STORE COUNT BY S
 
 ![Screenshot 2024-06-13 142343](https://github.com/Vickeejai/Sales-Report-for-Dataleum-Retail/assets/133552578/cf2c1b5e-986e-420a-921a-4d050584e4ff)
 
-3. DASHBOARD FROM THE ANALYSIS
+ 3. DASHBOARD FROM THE ANALYSIS
 
 ![Screenshot 2024-06-13 224100](https://github.com/Vickeejai/Sales-Report-for-Dataleum-Retail/assets/133552578/e999cf98-4ec2-4885-b477-6b7bb815b905)
 
