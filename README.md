@@ -19,7 +19,7 @@
 This report aims to review Dataleum’s financial performance from January to May 2020. Data was analyzed to create insights like revenue trend, top 5 products by revenue, and top 10 sales team by revenue.
 
 ### **Data Sources**
-Sales Data: The primary dataset "Sales Data Executive Reporting" file used for this analysis was already imported to the excel file, containing detailed information about each sale made by the company
+Sales Data: The primary dataset "Sales Dataset for DTLM Retail" file used for this analysis was already imported to the excel file, containing detailed information about each sale made by the company
 
 ### **Tools**
 
