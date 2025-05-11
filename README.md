@@ -1,4 +1,7 @@
-# **Sales Report for Dataleum Retail**
+# **THE COST OF LIGHT**
+
+![Screenshot (583)](https://github.com/user-attachments/assets/dccdd80c-5959-4feb-83db-76a4c7980f08)
+
 
 ## **Table of Contents**
 [Project Overview](project_overview)
