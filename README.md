@@ -4,7 +4,7 @@
 
 ### **INTRODUCTION**
 
-In 2023, a ₦5000 electricity purchase gave me close to 70 units of electricity. In 2025, that same ₦5000 barely gives me 22. That’s not just a 68% drop, it’s a silent disaster. While everyone talks about inflation and fuel prices, electricity quietly became a luxury. This project isn’t just about numbers, it’s about frustration, it’s about tracking every unit, comparing old receipts, and realizing it’s not just me but the system.
+In 2024, a ₦5000 electricity purchase gave me close to 70 units of electricity. In 2025, that same ₦5000 barely gives me 22. That’s not just a 68% drop, it’s a silent disaster. While everyone talks about inflation and fuel prices, electricity quietly became a luxury. This project isn’t just about numbers, it’s about frustration, it’s about tracking every unit, comparing old receipts, and realizing it’s not just me but the system.
 
 I tracked every electricity purchase from January 2024 to 2025, visualized the trends, and added real stories from everyday Nigerians. I wanted to understand how Nigeria’s electricity pricing had increased so badly and how ordinary people like me were being affected.
 
