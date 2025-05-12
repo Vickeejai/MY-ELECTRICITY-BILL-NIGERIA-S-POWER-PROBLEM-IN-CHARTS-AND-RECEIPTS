@@ -1,129 +1,80 @@
-# **THE COST OF LIGHT**
+# **MY ELECTRICITY BILL: NIGERIA'S POWER PROBLEM IN CHARTS AND RECEIPTS**
 
 ![Screenshot (583)](https://github.com/user-attachments/assets/dccdd80c-5959-4feb-83db-76a4c7980f08)
 
+### **INTRODUCTION**
 
-## **Table of Contents**
-[Project Overview](project_overview)
+In 2023, a ₦5000 electricity purchase gave me close to 70 units of electricity. In 2025, that same ₦5000 barely gives me 22. That’s not just a 68% drop, it’s a silent disaster. While everyone talks about inflation and fuel prices, electricity quietly became a luxury. This project isn’t just about numbers, it’s about frustration, it’s about tracking every unit, comparing old receipts, and realizing it’s not just me but the system.
 
-[Data Sources](data_sources)
+I tracked every electricity purchase from January 2024 to 2025, visualized the trends, and added real stories from everyday Nigerians. I wanted to understand how Nigeria’s electricity pricing had increased so badly and how ordinary people like me were being affected.
 
-[Tools](tools)
+### **INDUSTRY TYPE OF DATA**
 
-[Data Analysis](data_analysis)
+This project falls under the Energy Sector and Socioeconomic Impact, focusing on how fluctuating electricity tariffs affect household budgets and daily life.
 
-[Exploratory Data Analysis](exploratory_data_analysis)
+### **TARGET AUDIENCE OF THIS PROJECT**
 
-[Results](results)
+Nigerian Residents
+ - Policy Makers and Regulatory Bodies
+ - Civil Society and Advocacy Groups
+ - Economists and Energy Analysts
+ - Data Storytellers
 
-[Recommendation](recommendation)
+### **DATA CLEANING STEPS TAKEN**
 
-### **Project Overview**
-This report aims to review Dataleum’s financial performance from January to May 2020. Data was analyzed to create insights like revenue trend, top 5 products by revenue, and top 10 sales team by revenue.
+I used Excel to clean and prepare the dataset for analysis. Here's what I did:
 
-### **Data Sources**
-Sales Data: The primary dataset "Sales Dataset for DTLM Retail" file used for this analysis was already imported to the excel file, containing detailed information about each sale made by the company
+1. Performed Data Entry: Collected all the data I needed for this anaysis from my electricity receipts or records, and entered the data into the Excel sheet for further cleaning.
+2. Rounded Numeric Values: I used the ROUND function to limit decimals to two places in unit-related columns.
+3. Removed Redundant Columns: I deleted the “Duration in Days” column to avoid duplication and focused on the more detailed “Duration in Hours”.
+4. Grouped Data: Using IF formulas, I created custom categories for both Amount Paid and Duration to spot patterns more easily.
+Foe example: =IF(C2<1000,"Very Low", IF(C2<3000, "Low", IF C2<7000, "Medium", IF(C2<15000, "High", "Bulk"))))
+5. Standardizing Data Formats: The Amount column was formatted in the correct currency, Naira(₦), to maintain consistency across the dataset.
 
-### **Tools**
+### **METHODOLOGIES**
 
- - Microsoft Excel
- - PowerPoint
+To analyze and visualize the rising electricity cost, I used the following techniques:
+1. Pivot Tables to summarize data by month, cost per unit, and usage duration.
+2. Line and Column Charts to show trends in cost per unit over time and show when the crash started.
+3. Pie Charts to show the yearly spending comparison between 2024 and 2025.
+4. Combo Charts showing the correlation between the amount spent and the units obtained.
+5. Survey Tags to display short quotes from users to capture real-world frustration.
 
-### **Data Analysis**
+### **PROBLEMS BEING ADDRESSED**
 
-Imported the dataset file into my Excel sheet for data inspection, cleaning and analysis.
-Performed VLOOKUP analysis using the primary key for each table.
+Here are some of the core questions this analysis tried to answer:
 
-Performed some Excel calculations liike:
+1. When exactly did the crash in unit value begin?
+2. How has the cost per unit changed month by month?
+3. How long does a typical electricity purchase last in Nigerian homes?
+4. Are people buying less electricity now, or are the units simply getting fewer?
+5. What are people saying about this crisis, and how are they adapting?
 
-=[@[unit price]]*[@[Order qty]]
+### **ELECTRICITY SPENDING KEY METRICS**
 
-=[@Revenue]-([@[unit cost]]*[@[Order qty]])
+ - From January 2024 to April 2025, I spent a total of ₦490,995 on electricity.
+ - Over the same period, I consumed a total of 6,094 units (kWh).
+ - On average, I paid ₦96.83 per unit.
+ - Each purchase lasted an average duration of 118 hours.
+ - The crash in unit value started in April 2025.
+ - Between January 2024 and April 2025, my average cost per unit rose from ₦96.83/unit to over ₦227/unit.
+ - ₦5000, which gave around 69.99 units in early 2024, now gives just 22 units in 2025, a 68% drop.
+ - All survey respondents said they now pay higher amounts on electricity for smaller units.
+ - From January 2024 to March 2025, the units corresponded with the amount paid, but in April 2025, the units dropped drastically.
 
-### **Exploratory Data Analysis**
+### **RECOMMENDATION**
 
-As the data analyst for DTLM Retail, the Sales Director has requested the following from the dataset provided:
+From what I’ve seen in the data and, honestly, what I’ve lived through myself, things need to change.
 
-1. Calculate the following for every order:
+1. First, billing needs to make sense. You can’t be paying ₦50k for light and not know how many units you’re supposed to get or why it finishes so fast. People just want to understand what they’re paying for.
+2. Next, the power supply has to improve. If we’re now paying over ₦220 per unit, the least we deserve is steady light. Even something like 20 hours a day would change people’s lives. Right now, we’re just paying more for the same or even worse service.
+3. Also, the tariff increase is too much, too fast. There needs to be a serious conversation about reducing these prices or at least slowing them down. Because the way things are going, light will soon be a luxury only the rich can afford.
+4. People talk about solar and inverters, and yes, they help. But let’s be real: most Nigerians can’t afford that kind of setup. There should be options that help average people switch, not just those who already have money.
+5. Finally, the whole system needs to care more about people, not just profit. If we keep ignoring how hard this is hitting everyday Nigerians, we’re going to push even more people into darkness.
 
-   - Revenue
-   - Profit
+### **CONCLUSION**
 
-2. Make reports for:
+This whole project wasn’t just about tracking units and money. It was about trying to make sense of why light, something so basic, feels like a battle every month.
+The data says it clearly: I’m spending more, but getting less, and I’m not alone. From what others shared with me, this is a nationwide issue. No matter the DISCO, the story is the same.
 
-   - Revenue trend
-   - Top 5 products by revenue
-   - Revenue contribution (%) of the product categories
-   - Top 10 sales team by revenue
-   - Top 10 states by revenue, also showing their population, median income and store count per state
-
-3. Create a dashboard with the reports and make it sliceable by:
-   
-   - Product Category
-   - Date
-
-4. Include a textbox to highlight the following insights:
-   
-   - Which are the 2 top revenue products in January?
-   - Which sales team made most revenue from Decoratives in March?
-   - Based on 2v, which metric(s) correlates with revenue per state?
-   
-### **Results**   
-
-REVENUE TREND
- - A total revenue of 44.3 million USD was achieved within the 5-month period. 
- - February had the lowest revenue of 8.5 million USD, while May the highest revenue of 9.1 million USD.
-
-![Screenshot 2024-06-13 131634](https://github.com/Vickeejai/Sales-Report-for-Dataleum-Retail/assets/133552578/2a920425-7d91-440d-bae9-4c6d47ea040a)
-
-TOP 5 PRODUCTS BY REVENUE
- - Clocks, Vases, Cookware, Ornaments, and Phones were the top 5 products by revenue amounting to 12% of the total revenue.
-
-![Screenshot 2024-06-13 141628](https://github.com/Vickeejai/Sales-Report-for-Dataleum-Retail/assets/133552578/ccb121ca-fad6-4149-ae8b-8edb3f12d798)
-
-REVENUE CONTRIBUTION (%) OF THE PRODUCT CATEGORIES
- - The highest product that was a contributed revenue was Decoratives as 30% of this product was given without any returns in exchange. The smallest contributed was Kitchenery.
-
-![Screenshot 2024-06-13 133212](https://github.com/Vickeejai/Sales-Report-for-Dataleum-Retail/assets/133552578/e671a4aa-5f26-45cc-a682-c100c5596e3b)
-
-TOP 10 SALES TEAM BY REVENUE
- - Out of 28 persons in the Sales team, these 10 people achieved the highest revenue.
- - Total revenue from this top 10 amounts to 17.6 million USD, which is over 40% of the total revenue from all sales.
-
-![Screenshot 2024-06-13 141616](https://github.com/Vickeejai/Sales-Report-for-Dataleum-Retail/assets/133552578/974280c2-101c-46d7-95c9-43c82d7fd574)
-
-TOP 10 STATES BY REVENUE SHOWING POPULATION, MEDIAN INCOME, AND STORE COUNT BY STATE
- - These are the top 10 states with highest revenue showing population, median income, and store cound per state.
-
-![Screenshot 2024-06-13 142343](https://github.com/Vickeejai/Sales-Report-for-Dataleum-Retail/assets/133552578/cf2c1b5e-986e-420a-921a-4d050584e4ff)
-
- 3. DASHBOARD FROM THE ANALYSIS
-
-![Screenshot 2024-06-13 224100](https://github.com/Vickeejai/Sales-Report-for-Dataleum-Retail/assets/133552578/e999cf98-4ec2-4885-b477-6b7bb815b905)
-
- 4. The 2 top revenue products in January are: Collectibles and Vanities
-
- 5. Sales team with the most revenue from Decoratives in March is Donald Reynolds
-
- 6. Metrics that correlates with revenue per state are: No of Stores and State Population.
-
-![Screenshot 2024-06-13 224736](https://github.com/Vickeejai/Sales-Report-for-Dataleum-Retail/assets/133552578/6868b39d-a3a1-44fc-8274-6e2dce6a0676)
-
-### **Recommendation**
-
- - Discounts and Promos could be run on seasons like Valentine, Easter, etc. to get more revenue from sales.
- - There should be rewards for top performing salespersons to motivate the team.
- - More marketing campaigns should be carried out on low-performing products.
-
-
-
-
-
-
-
-
-
-
-
-
-
+Until something changes, whether it’s the pricing, the supply, or the policies, Nigerians will keep struggling with a system that’s broken. We deserve better.
