@@ -20,6 +20,10 @@ Nigerian Residents
  - Economists and Energy Analysts
  - Data Storytellers
 
+### **DATA LIMITATION**
+
+While this project began with personal electricity data, it was later supported by survey responses from users across different DISCOs in Nigeria, many of whom reported similar billing issues. However, the survey sample was limited in size and may not fully capture the diversity of electricity usage patterns or billing experiences across all regions and customer categories in Nigeria. A larger, more representative dataset would further strengthen the findings.
+
 ### **DATA CLEANING STEPS TAKEN**
 
 I used Excel to clean and prepare the dataset for analysis. Here's what I did:
