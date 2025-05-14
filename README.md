@@ -2,17 +2,17 @@
 
 ![Screenshot (583)](https://github.com/user-attachments/assets/dccdd80c-5959-4feb-83db-76a4c7980f08)
 
-### **INTRODUCTION**
+## **INTRODUCTION**
 
 In 2024, a ₦5000 electricity purchase gave me close to 70 units of electricity. In 2025, that same ₦5000 barely gives me 22. That’s not just a 68% drop, it’s a silent disaster. While everyone talks about inflation and fuel prices, electricity quietly became a luxury. This project isn’t just about numbers, it’s about frustration, it’s about tracking every unit, comparing old receipts, and realizing it’s not just me but the system.
 
 I tracked every electricity purchase from January 2024 to 2025, visualized the trends, and added real stories from everyday Nigerians. I wanted to understand how Nigeria’s electricity pricing had increased so badly and how ordinary people like me were being affected.
 
-### **INDUSTRY TYPE OF DATA**
+## **INDUSTRY TYPE OF DATA**
 
 This project falls under the Energy Sector and Socioeconomic Impact, focusing on how fluctuating electricity tariffs affect household budgets and daily life.
 
-### **TARGET AUDIENCE OF THIS PROJECT**
+## **TARGET AUDIENCE OF THIS PROJECT**
 
 Nigerian Residents
  - Policy Makers and Regulatory Bodies
@@ -20,11 +20,11 @@ Nigerian Residents
  - Economists and Energy Analysts
  - Data Storytellers
 
-### **DATA LIMITATION**
+## **DATA LIMITATION**
 
 While this project began with personal electricity data, it was later supported by survey responses from users across different DISCOs in Nigeria, many of whom reported similar billing issues. However, the survey sample was limited in size and may not fully capture the diversity of electricity usage patterns or billing experiences across all regions and customer categories in Nigeria. A larger, more representative dataset would further strengthen the findings.
 
-### **DATA CLEANING STEPS TAKEN**
+## **DATA CLEANING STEPS TAKEN**
 
 I used Excel to clean and prepare the dataset for analysis. Here's what I did:
 
@@ -35,7 +35,7 @@ I used Excel to clean and prepare the dataset for analysis. Here's what I did:
 Foe example: =IF(C2<1000,"Very Low", IF(C2<3000, "Low", IF C2<7000, "Medium", IF(C2<15000, "High", "Bulk"))))
 5. Standardizing Data Formats: The Amount column was formatted in the correct currency, Naira(₦), to maintain consistency across the dataset.
 
-### **METHODOLOGIES**
+## **METHODOLOGIES**
 
 To analyze and visualize the rising electricity cost, I used the following techniques:
 1. Pivot Tables to summarize data by month, cost per unit, and usage duration.
@@ -44,7 +44,7 @@ To analyze and visualize the rising electricity cost, I used the following techn
 4. Combo Charts showing the correlation between the amount spent and the units obtained.
 5. Survey Tags to display short quotes from users to capture real-world frustration.
 
-### **PROBLEMS BEING ADDRESSED**
+## **PROBLEMS BEING ADDRESSED**
 
 Here are some of the core questions this analysis tried to answer:
 
@@ -54,7 +54,7 @@ Here are some of the core questions this analysis tried to answer:
 4. Are people buying less electricity now, or are the units simply getting fewer?
 5. What are people saying about this crisis, and how are they adapting?
 
-### **ELECTRICITY SPENDING KEY METRICS**
+## **ELECTRICITY SPENDING KEY METRICS**
 
  - From January 2024 to April 2025, I spent a total of ₦490,995 on electricity.
  - Over the same period, I consumed a total of 6,094 units (kWh).
@@ -66,7 +66,7 @@ Here are some of the core questions this analysis tried to answer:
  - All survey respondents said they now pay higher amounts on electricity for smaller units.
  - From January 2024 to March 2025, the units corresponded with the amount paid, but in April 2025, the units dropped drastically.
 
-### **RECOMMENDATION**
+## **RECOMMENDATION**
 
 From what I’ve seen in the data and, honestly, what I’ve lived through myself, things need to change.
 
@@ -76,7 +76,7 @@ From what I’ve seen in the data and, honestly, what I’ve lived through mysel
 4. People talk about solar and inverters, and yes, they help. But let’s be real: most Nigerians can’t afford that kind of setup. There should be options that help average people switch, not just those who already have money.
 5. Finally, the whole system needs to care more about people, not just profit. If we keep ignoring how hard this is hitting everyday Nigerians, we’re going to push even more people into darkness.
 
-### **CONCLUSION**
+## **CONCLUSION**
 
 This whole project wasn’t just about tracking units and money. It was about trying to make sense of why light, something so basic, feels like a battle every month.
 The data says it clearly: I’m spending more, but getting less, and I’m not alone. From what others shared with me, this is a nationwide issue. No matter the DISCO, the story is the same.
